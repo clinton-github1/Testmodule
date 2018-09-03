@@ -1,0 +1,39 @@
+<h1><?php 
+    //echo ('Today is ') . date("l") ." , ". ('date ') . date("d-m-y") . "<br>" . "Start the Sabbath Preparations!!" ."<br>";
+    
+   
+   $date= date('l');
+    
+    switch ($date) {
+    case 'Sunday':
+    $day= "Today is Sunday" . date("d-m-y"). "<br>" . "It is jamhuri day!!";
+    break;
+    
+    case 'Monday':
+    $day= "Today is Monday " . date("d-m-y"). "<br>" . "It is Parental Day!!";
+    break;
+    
+    case 'Tuesday':
+    $day= "Today is Tuesday" . date("d-m-y"). "<br>" . "It is Olympic Day!!";
+    break;
+    
+    case 'Wednesday':
+    $day= "Today is Wednesday" . date("d-m-y"). "<br>" . "It is Talent Day!!";
+    break;
+    
+    case 'Thursday':
+    $day= "Today is Thursday" . date("d-m-y"). "<br>" . "It is Education Day!!";
+    break;
+    
+    case 'Friday':
+    $day="Today is Friday" . date("d-m-y"). "<br>" . "It is Sabbath preparations!!";
+    break;
+    
+    case 'Saturday':
+    $day= "Today is Saturday" . date("d-m-y"). "<br>" . "It is Sabbath rest of the Creator!!!!";
+    break;
+    }
+    
+    echo $day;
+    
+    ?></h1>
